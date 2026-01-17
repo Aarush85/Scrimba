@@ -1,0 +1,161 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* img {
+    width: 100px;
+} */
+
+.hero {
+    background: url("/images/jalandhar-cover4.png");
+    /* background-position: center; */
+    background-size: cover;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 70px;
+    align-items: center;
+    justify-content: center;
+    color: #f1ede6;
+    font-weight: bold;
+    font-family: "IBM Plex Serif", serif;
+    font-style: bold;
+    font-size: 700;
+    text-shadow: 0 0 5px black;
+    margin: 0;
+}
+
+
+#hero-title {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    background-color: #1D3557;
+    padding: 0px 25px;
+    border-radius: 20px;
+}
+
+
+#hero-subtitle {
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    background-color: #457B9D;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+.activities{
+    margin: 0;
+    background-color: #F1FAEE;
+    /* font-family: "IBM Plex Serif", serif; */
+    font-family: "Arial", sans-serif;
+    color: #1D3557;
+    overflow: auto;
+
+}
+
+.activities-section {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: space-between; */
+    /* margin: 0 100px; */
+    justify-content: space-between;
+    gap: 40px;
+    padding: 40px 200px;
+    margin:0;
+}
+
+#activities-title{
+    font-size: 24px;
+}
+
+.activity-img{
+    border-radius: 59px;
+    width: 125px;
+    height: 125px;
+}
+
+.activity-title{
+    /* font-style: bold; */
+    font-size: 16px;
+    font-weight: 700;
+    font-style:bold;
+}
+
+.activity {
+    width: 198px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 20px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+    transition: transform 300ms ease, box-shadow 300ms ease;
+}
+
+.activity:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.12);
+}
+
+
+.activity-description{
+    font-size: 14px;
+    font-weight: 400;
+    /* font-style: normal; */
+}
+
+.guide{
+    background-color: #A8DADC;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px 30px;
+    color: #1D3557;
+    border-radius: 10px;
+    border-bottom: #1D3557 7px solid;
+    font-family: "Arial", sans-serif;
+}
+
+#guide-img{
+    width: 150px;
+    border-radius: 10px;
+}
+
+.guide-content{
+    /* text-align: left; */
+    /* margin-left: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+    width: 200px;
+}
+
+#guide-title{
+    margin: 0;
+    /* font-size: 20px; */
+}
+
+#guide-description{
+    /* font-size: 14px; */
+    /* font-weight: 400; */
+    /* font-style: italic; */
+    margin: 20px 0;
+}
+#guide-name{
+    margin: 0;
+}
