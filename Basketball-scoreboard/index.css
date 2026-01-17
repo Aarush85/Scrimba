@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #1B244A;
+    margin: 10px 500px;
+    padding: 0 0 70px 50px;
+}
+
+
+.home-section,
+.guest-section {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+#home-title,
+#guest-title {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin: 50px auto 15px auto;
+}
+
+
+.scoreplace {
+    background-color: black;
+    height: 120px;
+    width: 155px;
+    margin: 0 0 20px 0;
+    padding: 15px 0 0 0;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-points,
+#guest-points {
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 80px;
+}
+
+
+#add-one-home,
+#add-two-home,
+#add-three-home,
+#add-one-guest,
+#add-two-guest,
+#add-three-guest {
+    background-color: #1B244A;
+    color: #9AABD8;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+
+#reset-btn{
+    position: absolute;
+    margin-top: 380px;
+    margin-right:50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkblue;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
