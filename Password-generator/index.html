@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="upper-container">
+            <h1 id="heading">Generate a
+                <p id="sub-heading">random password</p>
+            </h1>
+            <p id="description">Never use an insecure password again.</p>
+            <button id="gen-pass-btn" onclick="randomPassGen()">Generate passwords</button>
+        </div>
+        <div class="lower-container">
+            <div id="first-password">
+            </div>
+            <i style="font-size:24px; padding-top:10px; cursor: pointer; visibility:hidden;" class="fa" onclick="CopyFirstPassword()">&#xf0c5;</i>
+            <div id="second-password"></div>
+        </div>
+        <p id="copy-info">Copied to clipboard!</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

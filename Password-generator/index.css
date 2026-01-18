@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 500px;
+    height: 350px;
+    background-color: #1F2937;
+    padding: 65px 0px 0px 62px;
+    border-radius: 5px;
+}
+
+#heading{
+    width: 354px;
+    font-family: "Karla", sans-serif;
+    font-weight: 800;
+    size: 40px;
+    margin: 0;
+    color: white;
+}
+#sub-heading{
+    margin: 0;
+    color: #41DA7D;
+}
+
+#description{
+    color: #D5D4D8;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    size:20px;
+}
+
+#gen-pass-btn{
+    color: #FFFFFF;
+    background-color: #10B981;
+    border:none;
+    border-radius: 3px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    size:16px;
+    padding: 8px 10px;
+    margin-top: 25px;
+}
+
+.upper-container{
+    /* background: blue; */
+    width: 430px;
+    padding: 0 0 30px 0;
+    border-bottom: 1px solid #2F3E53 ; 
+}
+
+.lower-container{
+    display: flex;
+    gap: 8px;
+    margin: 10px 0;
+}
+
+#first-password, #second-password{
+    color: #55F991;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    size:16px;
+    background-color: #273549;
+    width: 211px;
+    height: 40px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#copy-info{
+    /* width: 700px; */
+    color: greenyellow;
+    visibility: hidden;
+    margin: 0 auto;
+    text-align: center;
+}

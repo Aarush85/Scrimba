@@ -1,0 +1,14 @@
+{
+  "name": "Scrim-s04ji79spk",
+  "description": "https://scrimba.com/s04ji79spk/head",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
